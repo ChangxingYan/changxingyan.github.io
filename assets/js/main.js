@@ -14,7 +14,7 @@
      6. LlghtGallery
      7. Stretch Portfolio
      8. Mizio cursor
-     9. Portfolio
+     9. Portio
      10. Blog
      11. Parallax
      12. Fullscreen menu
