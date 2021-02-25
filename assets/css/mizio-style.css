@@ -1,0 +1,463 @@
+
+/* General */
+
+[mizio-style="light"] body, 
+[mizio-style="dark"] body, 
+[mizio-style="light"] .mizio-icon-circle,
+[mizio-style="dark"] .mizio-icon-circle, 
+[mizio-style="dark"] .minimal-page-loader:before, 
+[mizio-style="dark"] .minimal-page-loader:after {
+  -webkit-transition: background-color 0.5s ease;
+  -moz-transition: background-color 0.5s ease;
+  -o-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+}
+
+.border-slider-page-mizio span, .border-creative-page-mizio span {
+  -webkit-transition: border-color 0.5s ease;
+  -moz-transition: border-color 0.5s ease;
+  -o-transition: border-color 0.5s ease;
+  transition: border-color 0.5s ease;
+}
+
+/* Light */
+
+[mizio-style="light"] body {
+  background-color: #fff;
+} 
+
+[mizio-style="light"] .mizio-icon-circle {
+  background-color: #000;
+}
+
+[mizio-style="light"] .mizio-logo-light {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  }
+
+[mizio-style="light"] .border-slider-page-mizio span {
+    border-left: 1px solid #e9e9e9;
+    position: absolute;
+    height: 100%;
+    left: 40%;
+    top: 0;
+}
+
+[mizio-style="light"] .border-slider-page-mizio span:nth-child(2) {
+    position: absolute;
+    height: 100%;
+    left: 61%;
+    top: 0;
+}
+
+[mizio-style="light"] .border-creative-page-mizio span {
+    border-left: 1px solid #e9e9e9;
+    position: absolute;
+    height: 100%;
+    left: 17%;
+    top: 0;
+    z-index: 99;
+}
+
+[mizio-style="light"] .border-creative-page-mizio span:nth-child(2) {
+    position: absolute;
+    height: 100%;
+    left: 82%;
+    top: 0;
+}
+
+
+/* Dark */
+
+[mizio-style="dark"] body {
+  background-color: #0a0a0a;
+  color: #fff;
+}
+
+[mizio-style="dark"] .border-slider-page-mizio span {
+    border-left: 1px solid #1d1d1d;
+    position: absolute;
+    height: 100%;
+    left: 40%;
+    top: 0;
+}
+
+[mizio-style="dark"] .border-slider-page-mizio span:nth-child(2) {
+    position: absolute;
+    height: 100%;
+    left: 61%;
+    top: 0;
+}
+
+[mizio-style="dark"] .border-creative-page-mizio span {
+    border-left: 1px solid #1d1d1d;
+    position: absolute;
+    height: 100%;
+    left: 17%;
+    top: 0;
+    z-index: 99;
+}
+
+[mizio-style="dark"] .border-creative-page-mizio span:nth-child(2) {
+    position: absolute;
+    height: 100%;
+    left: 82%;
+    top: 0;
+}
+
+[mizio-style="dark"] #mizio-creative .right-box-project .info-project, [mizio-style="dark"] #mizio-creative .right-box-project .info-project strong {
+    color: #8d8d8d;
+}
+
+[mizio-style="dark"] #mizio-creative .left-box-project .left-title-project.is_hovered {
+  color: #fff;
+}
+
+[mizio-style="dark"] #mizio-creative .right-box-project .text-project {
+    color: #bcbcbc;
+}
+
+[mizio-style="dark"] #mizio-slider .swiper-slide h1.current-title {
+  color: #000;
+}
+
+[mizio-style="dark"] #mizio-slider .box-slide h1.current-box-title:after {
+  color: #fff;
+}
+
+[mizio-style="dark"] #mizio-slider .swiper-slide h2 {
+  color: #000;
+}
+
+[mizio-style="dark"] .mizio-logo-dark {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+[mizio-style="dark"] .header-logo-title {
+  color: #fff;
+}
+
+[mizio-style="dark"] .mizio-style .mizio-icon-circle {
+  background-color: #fff;
+}
+
+[mizio-style="dark"] .mizio-button.big-button .arrow {
+  background-image: url(../images/right-arrow-white.svg);
+  background-size: 22px 22px;
+}
+
+[mizio-style="dark"] .mizio-button.small-button .arrow, [mizio-style="dark"] .post-button .arrow {
+  background-image: url(../images/right-arrow-white.svg);
+  background-size: 15px 16px;
+}
+
+[mizio-style="dark"] .single-navigation .next-button .arrow {
+  background-image: url(../images/right-arrow-white.svg);
+  background-size: 26px 26px;
+}
+
+[mizio-style="dark"] .single-navigation .prev-button .arrow {
+  background-image: url(../images/left-arrow-white.svg);
+  background-size: 26px 26px;
+}
+
+[mizio-style="dark"] .fullscreen-nav-trigger .burger {
+  background: #fff;
+}
+
+[mizio-style="dark"] #wrapper p, [mizio-style="dark"] #wrapper p span {
+  color: #bcbcbc!important;
+}
+
+[mizio-style="dark"] .minimal-page-loader:before {
+  background-color: #070707;
+}
+
+[mizio-style="dark"] .minimal-page-loader:after {
+  background-color: #fff;
+}
+
+[mizio-style="dark"] .text-client {
+  color: #bcbcbc!important;
+}
+
+[mizio-style="dark"] header nav.classic-menu ul.menu li.current-menu-item a, [mizio-style="dark"] header nav.classic-menu ul.menu li.current-menu-parent a {
+  color: #fff;
+}
+
+[mizio-style="dark"] header nav.classic-menu ul.menu li a:hover {
+  color: #fff;  
+}
+
+[mizio-style="dark"] .cbp-l-loadMore-link {
+  border-color: #fff;
+}
+
+[mizio-style="dark"] .blogFilter .cbp-filter-item-active, [mizio-style="dark"] .portfolioFilter .cbp-filter-item-active {
+  color: #fff;
+}
+
+[mizio-style="dark"] .blogFilter .cbp-filter-item:hover, [mizio-style="dark"] .portfolioFilter .cbp-filter-item:hover {
+  color: #fff;
+}
+
+[mizio-style="dark"] .cbp-l-loadMore-link:before  {
+  background-color: #ffffff;
+}
+
+[mizio-style="dark"] .cbp-l-loadMore-link span {
+  color: #fff;
+}
+
+[mizio-style="dark"] .cbp-l-loadMore-loadingText {
+  background-color: #fff;
+}
+
+[mizio-style="dark"] .cbp-l-loadMore-link:hover span {
+  color: #000;
+}
+
+[mizio-style="dark"] .information-list ul li {
+  color: #a6a6a6
+}
+
+[mizio-style="dark"] .information-list strong {
+  color: #fff;
+}
+
+[mizio-style="dark"] .post-details {
+  color: #a6a6a6;
+}
+
+[mizio-style="dark"] .post-details div a {
+  color: #fff;
+}
+
+[mizio-style="dark"] .single-post h2.entry-title a {
+  color: #fff;
+}
+
+[mizio-style="dark"] .post-details .entry-box a {
+    color: #a6a6a6;
+}
+
+[mizio-style="dark"] .contact-box input, [mizio-style="dark"] .contact-form input, [mizio-style="dark"] .contact-form textarea {
+  border-color: #fff;
+  color: #fff;
+}
+
+[mizio-style="dark"] .post-info {
+  color: #bcbcbc;
+}
+
+[mizio-style="dark"] .post-info a {
+  color: #fff!important;
+}
+
+[mizio-style="dark"] .post-info h1, [mizio-style="dark"] .post-info h2, 
+[mizio-style="dark"] .post-info h3, [mizio-style="dark"] .post-info h4, 
+[mizio-style="dark"] .post-info h5, 
+[mizio-style="dark"] .post-info h6 {
+  color: #fff;
+}
+
+[mizio-style="dark"] .entry-title a {
+    color: #fff;
+}
+
+[mizio-style="dark"] .entry-title a:hover {
+   color: #d5d5d5!important;
+}
+
+[mizio-style="dark"] .comment .reply a {
+  color: #fff;
+}
+
+[mizio-style="dark"] .form-comment input[type='text'], [mizio-style="dark"] .form-comment input[type='email'], [mizio-style="dark"] .form-comment textarea{
+  border-color: #fff;
+  color: #fff;
+}
+
+[mizio-style="dark"] .form-comment input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+[mizio-style="dark"] .form-comment input::-moz-placeholder {
+  color: #fff;
+}
+
+[mizio-style="dark"] .form-comment input:-ms-input-placeholder {
+  color: #fff;
+}
+
+[mizio-style="dark"] .form-comment input:-moz-placeholder {
+  color: #fff;
+}
+
+[mizio-style="dark"] .form-comment textarea::-webkit-input-placeholder {
+  color: #fff;
+}
+
+[mizio-style="dark"] .form-comment textarea::-moz-placeholder {
+  color: #fff;
+}
+
+[mizio-style="dark"] .form-comment textarea:-ms-input-placeholder {
+  color: #fff;
+}
+
+[mizio-style="dark"] .form-comment textarea:-moz-placeholder {
+  color: #fff;
+}
+
+[mizio-style="dark"] .form-comment .submit {
+  border-color: #fff;
+  color: #fff;
+}
+
+[mizio-style="dark"] .form-comment .submit:before { 
+ background-color: #fff;
+}
+
+[mizio-style="dark"] .form-comment .submit:hover {
+  color: #000;
+}
+
+[mizio-style="dark"] .comment .name-author h5 {
+  color: #fff;
+}
+
+[mizio-style="dark"] #comments h3.comments-title {
+  color: #fff;
+}
+
+[mizio-style="dark"] .comment-data {
+  color: #bcbcbc;
+}
+
+[mizio-style="dark"] #comments .body-comment {
+  color: #bcbcbc; 
+}
+
+[mizio-style="dark"] .form-comment h3.comment-reply-title {
+  color: #fff;
+}
+
+[mizio-style="dark"] #comments h3 a {
+  color: #fff!important;
+}
+
+[mizio-style="dark"] .post-tags li a:hover {
+  border-color: #fff;
+}
+
+[mizio-style="dark"] .comment .reply a {
+  color: #fff!important;
+}
+
+[mizio-style="dark"] .post-tags li a {
+  border-color: #242424;
+}
+
+[mizio-style="dark"] .footer-single a {
+  color: #fff;
+}
+
+[mizio-style="dark"] .form-comment {
+  background-color: #000;
+}
+
+[mizio-style="dark"] .mizio-character {
+  color: #222222;
+}
+
+[mizio-style="dark"] .single-navigation .prev-button a, [mizio-style="dark"] .single-navigation .next-button a {
+  color: #fff;
+}
+
+[mizio-style="dark"] a.mizio-button, [mizio-style="dark"] a.mizio-button:hover {
+  color: #fff;
+}
+
+[mizio-style="dark"] blockquote, [mizio-style="dark"] #wrapper blockquote p {
+  color: #fff!important;
+}
+
+[mizio-style="dark"] .contact-form button {
+    border-color: #fff;
+    color: #fff;
+}
+
+[mizio-style="dark"] .contact-form button:before { 
+ background-color: #fff;
+}
+
+[mizio-style="dark"] .contact-form button:hover {
+  color: #000;
+}
+
+[mizio-style="dark"] .contact-form input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+[mizio-style="dark"] .contact-form input::-moz-placeholder  {
+  color: #fff;
+}
+
+[mizio-style="dark"] .contact-form input:-ms-input-placeholder  {
+  color: #fff;
+}
+
+[mizio-style="dark"] .contact-form input:-moz-placeholder  {
+  color: #fff;
+}
+
+[mizio-style="dark"] .contact-form textarea::-webkit-input-placeholder  {
+  color: #fff;
+}
+
+[mizio-style="dark"] .contact-form textarea::-moz-placeholder  {
+  color: #fff;
+}
+
+[mizio-style="dark"] .contact-form textarea:-ms-input-placeholder  {
+  color: #fff;
+}
+
+[mizio-style="dark"] .contact-form textarea:-moz-placeholder {
+  color: #fff;
+}
+
+[mizio-style="dark"] .entry-header {
+  color: #fff;
+}
+
+[mizio-style="dark"] .pagination a, [mizio-style="dark"] .pagination span {
+  color: #fff;
+  border-color: #000;
+}
+
+[mizio-style="dark"] cite {
+  color: #fff
+}
+
+[mizio-style="dark"] #wrapper a, [mizio-style="dark"] #wrapper a:active, [mizio-style="dark"] #wrapper a:focus, [mizio-style="dark"] #wrapper a:active {
+  color: #fff;
+}
+
+[mizio-style="dark"] .footer-single h3 {
+  color: #fff;
+}
