@@ -38,7 +38,7 @@
             $subject = "New message!";
             $message = "New request!\n\nE-mail: " . $email . "\n\nName: " . $name . "\n\nPhone: " . $phone . "\n\nMessage: " . $msg . "\n\n";
             
-            $mail = mail("changxing.yan.20@ucl.ac.uk", $subject, $message, "From: " . $name . " <" . $email . "> " . "Reply-To: " . $email . " " . " X-Mailer: PHP/" . phpversion());
+            $mail = mail("changx.yan.99@gmail.com", $subject, $message, "From: " . $name . " <" . $email . "> " . "Reply-To: " . $email . " " . " X-Mailer: PHP/" . phpversion());
             if ($mail) {
                 echo 'OK';
             }
