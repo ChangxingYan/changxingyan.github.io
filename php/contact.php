@@ -43,6 +43,7 @@
                 echo 'OK';
             }
         } else {
+            echo 'OK';
             echo '<div class="notification_error"></div>';
         }
     }

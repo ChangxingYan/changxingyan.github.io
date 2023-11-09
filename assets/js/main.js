@@ -643,9 +643,11 @@ function mt_ajax_contact_form() {
             if (data == 'OK') {
               var result = '<div class="notification_ok"><i class="fa fa-check"></i> Your email was sent. Thanks!</div>';
               $("#ajax-contact-form").find('input[type=text], input[type=email], textarea').val("");
+                alert("3");
 
             } else {
               result = data;
+                alert("4")
             }
             $('#note').html(result);
 
